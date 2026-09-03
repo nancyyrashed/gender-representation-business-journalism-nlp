@@ -1,0 +1,26 @@
+import pandas as pd
+from bs4 import BeautifulSoup 
+import seaborn as sns
+import requests
+import json
+import nltk
+import re
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords 
+from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from textatistic import Textatistic
+from nltk.corpus import opinion_lexicon
+from textblob import TextBlob
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')
+nltk.download('opinion_lexicon')
+!pip install wordcloud
+import matplotlib.pyplot as plt
+import plotly.express as px
+from wordcloud import WordCloud
+pip install textatistic
+pip install textblob
